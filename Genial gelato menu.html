@@ -1,0 +1,191 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Genial Gelato</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #fcebe9; color: #333; padding: 15px; max-width: 500px; margin: 0 auto; }
+        
+        header { text-align: center; margin-bottom: 25px; padding-top: 10px; }
+        /* Estilo para que el logotipo quede redondo, con borde y tamaño ideal para celular */
+        .logo-img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #e60023; margin-bottom: 10px; box-shadow: 0 3px 6px rgba(0,0,0,0.1); }
+        
+        header h1 { color: #e60023; font-size: 2rem; font-weight: bold; margin-bottom: 5px; letter-spacing: 1px; }
+        header p { color: #b33939; font-size: 0.95rem; font-style: italic; font-weight: 600; }
+        
+        .category { margin-bottom: 25px; }
+        .category h2 { font-size: 1.15rem; color: #b33939; border-bottom: 2px solid #e60023; padding-bottom: 5px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .item-card { background: #fff; padding: 12px 15px; border-radius: 12px; margin-bottom: 10px; box-shadow: 0 3px 6px rgba(230,0,35,0.08); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #e60023; }
+        .item-info h3 { font-size: 0.95rem; color: #222; margin-bottom: 3px; font-weight: 600; }
+        .item-info p { font-size: 0.8rem; color: #666; line-height: 1.2; }
+        .item-price { font-weight: bold; color: #e60023; font-size: 0.95rem; white-space: nowrap; margin-left: 10px; }
+        
+        footer { text-align: center; margin-top: 30px; margin-bottom: 20px; font-size: 0.8rem; color: #b33939; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Aquí se enlaza tu logotipo ubicado en la misma carpeta -->
+        <img src="1000044254.png" alt="Logotipo Genial Gelato" class="logo-img">
+        <h1>Genial Gelato</h1>
+        <p>¡Disfruta un sabor original!</p>
+    </header>
+
+    <!-- HELADOS -->
+    <div class="category">
+        <h2>Helados</h2>
+        
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Canoa Super Genial</h3>
+                <p>2 bolas, 1 cupcake, chispitas, leche condensada</p>
+            </div>
+            <div class="item-price">$500.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Copa Isabelita</h3>
+                <p>3 bolas, 3 galletas, chispitas, leche condensada y sirope</p>
+            </div>
+            <div class="item-price">$500.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Copa Genial Gelato</h3>
+                <p>5 bolas, 1 bastón, 3 galletas, chispitas, leche condensada, sirope</p>
+            </div>
+            <div class="item-price">$1000.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Copa con Sorbeto</h3>
+                <p>3 bolas, 1 sorbeto, leche condensada, chispitas</p>
+            </div>
+            <div class="item-price">$0.00</div>
+        </div>
+    </div>
+
+    <!-- BEBIDAS -->
+    <div class="category">
+        <h2>Bebidas</h2>
+        
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Refresco de Lata</h3>
+                <p>Bebida fría en lata</p>
+            </div>
+            <div class="item-price">$600.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Malta Guajira</h3>
+                <p>Malta tradicional</p>
+            </div>
+            <div class="item-price">$700.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Jugo Cajita La Estancia</h3>
+                <p>Jugo envasado</p>
+            </div>
+            <div class="item-price">$350.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Juguito de Cajita</h3>
+                <p>Presentación pequeña</p>
+            </div>
+            <div class="item-price">$280.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Agua Mineral</h3>
+                <p>Agua embotellada</p>
+            </div>
+            <div class="item-price">$350.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Jugos de Latas</h3>
+                <p>Variedad en lata</p>
+            </div>
+            <div class="item-price">$650.00</div>
+        </div>
+    </div>
+
+    <!-- AGREGADOS -->
+    <div class="category">
+        <h2>Agregados</h2>
+        
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Cupcakes</h3>
+                <p>Delicioso ponquecito</p>
+            </div>
+            <div class="item-price">$170.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Borrachitas</h3>
+                <p>Dulce tradicional</p>
+            </div>
+            <div class="item-price">$170.00</div>
+        </div>
+    </div>
+
+    <!-- SERVICIO PARA LLEVAR -->
+    <div class="category">
+        <h2>Servicio para Llevar</h2>
+        
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Potes de Helado (Medio Litro)</h3>
+                <p>Lleva tu sabor favorito</p>
+            </div>
+            <div class="item-price">$700.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Potes de Helado (1 Litro)</h3>
+                <p>Formato familiar</p>
+            </div>
+            <div class="item-price">$1100.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Cajas de 4 Litros</h3>
+                <p>Ideal para compartir o celebraciones</p>
+            </div>
+            <div class="item-price">$3500.00</div>
+        </div>
+
+        <div class="item-card">
+            <div class="item-info">
+                <h3>Barquillas</h3>
+                <p>Crujientes barquillas para acompañar</p>
+            </div>
+            <div class="item-price">$180.00</div>
+        </div>
+    </div>
+
+    <footer>
+        Genial Gelato &copy; 2026 - ¡Disfruta un sabor original!
+    </footer>
+
+</body>
+</html>
